@@ -4,14 +4,14 @@ function Header() {
     return (
         <div className="flex shadow-sm p-4 text-center justify-between">
       <div className="flex">
-        <a href="https://github.com/LukaMarkicevic/recipe-app">
+        <a href="https://github.com/LukaMarkicevic/higher-lower">
           <img
             className="w-5 h-5 mt-1"
             src={`${process.env.PUBLIC_URL}/assets/logo/github.png`}
             alt="PICTURE MISSING"
           />
         </a>
-        <label className="ml-2">higer-lower</label>
+        <label className="ml-2">higher-lower</label>
       </div>
       
       <div className="flex">
